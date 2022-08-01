@@ -12,74 +12,9 @@ The "Coq proof assistant" was jointly developed by
 - Institut de Recherche en Informatique Fondamentale (IRIF),
   associated to CNRS and University Paris Diderot (since Jan. 2016).
 
-All files of the "Coq proof assistant" in directories or sub-directories of
-
-  config dev ide interp intf kernel lib library parsing pretyping proofs
-  scripts states tactics test-suite theories tools toplevel
-
-are distributed under the terms of the GNU Lesser General Public License
+All files ending with .el are distributed under the terms of the GNU Lesser General Public License
 Version 2.1 (see file LICENSE). These files are COPYRIGHT 1999-2017,
 The Coq development team, INRIA, CNRS, LIX, LRI, PPS.
-
-Files from the directory doc are distributed as indicated in file doc/LICENCE.
-
-The following directories contain independent contributions supported
-by the Coq development team. All of them are released under the terms of
-the GNU Lesser General Public License Version 2.1.
-
-plugins/cc
-  developed by Pierre Corbineau (ENS Cachan, 2001, LRI, 2001-2005, Radboud
-  University at Nijmegen, 2005-2008, Grenoble 1, 2010-2014)
-plugins/decl_mode
-  developed by Pierre Corbineau (Radboud University at Nijmegen, 2005-2008,
-  Grenoble 1, 2009-2011)
-plugins/extraction
-  developed by Pierre Letouzey (LRI, 2000-2004, PPS, 2005-now)
-plugins/firstorder
-  developed by Pierre Corbineau (LRI, 2003-2008)
-plugins/fourier
-  developed by Loïc Pottier (INRIA-Lemme, 2001)
-plugins/funind
-  developed by Pierre Courtieu (INRIA-Lemme, 2003-2004, CNAM, 2006-now),
-  Julien Forest (INRIA-Everest, 2006, CNAM, 2007-2008, ENSIIE, 2008-now)
-  and Yves Bertot (INRIA-Marelle, 2005-2006)
-plugins/micromega
-  developed by Frédéric Besson (IRISA/INRIA, 2006-now), with some
-  extensions by Evgeny Makarov (INRIA, 2007); sum-of-squares solver and
-  interface to the csdp solver uses code from John Harrison (University
-  of Cambridge, 1998)
-plugins/nsatz
-  developed by Loïc Pottier (INRIA-Marelle, 2009-2011)
-plugins/omega
-  developed by Pierre Crégut (France Telecom R&D, 1996)
-plugins/quote
-  developed by Patrick Loiseleur (LRI, 1997-1999)
-plugins/romega
-  developed by Pierre Crégut (France Telecom R&D, 2001-2004)
-plugins/rtauto
-  developed by Pierre Corbineau (LRI, 2005)
-plugins/setoid_ring
-  developed by Benjamin Grégoire (INRIA-Everest, 2005-2006),
-  Assia Mahboubi, Laurent Théry (INRIA-Marelle, 2006)
-  and Bruno Barras (INRIA LogiCal, 2005-2006),
-plugins/ssreflect
-  developed by Georges Gonthier (Microsoft Research - Inria Joint Centre, 2007-2011),
-  Assia Mahboubi and Enrico Tassi (Inria, 2011-now).
-plugins/ssrmatching
-  developed by Georges Gonthier (Microsoft Research - Inria Joint Centre, 2007-2011),
-  and Enrico Tassi (Inria-Marelle, 2011-now)
-plugins/subtac
-  developed by Matthieu Sozeau (LRI, 2005-2008)
-theories/ZArith
-  started by Pierre Crégut (France Telecom R&D, 1996)
-theories/Strings
-  developed by Laurent Théry (INRIA-Lemme, 2003)
-theories/Numbers/Cyclic
-  developed by Benjamin Grégoire (INRIA-Everest, 2007),
-  Laurent Théry (INRIA-Marelle, 2007-2008),
-  Arnaud Spiwack (INRIA-LogiCal, 2007) and Pierre Letouzey (PPS, 2008)
-ide/utils
-  some files come from Maxence Guesdon's Cameleon tool
 
 The development of Coq significantly benefited from feedback,
 suggestions or short contributions from the following non exhaustive

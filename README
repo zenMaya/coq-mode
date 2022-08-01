@@ -1,0 +1,17 @@
+#+title: Coq mode for Emacs
+
+* Why =coq-mode= when there's [[https://proofgeneral.github.io/][Proof General]]?
+
+Proof General is a great piece of software, even the Coq developers [[https://github.com/coq/coq/commit/41d597866d4f79fe5109c25c6f5cc57d0ebf7f0f][think so]].
+
+The only problem is, that Proof General is not integrating into the Emacs ecosystem very well. What do I mean by that? Well, if you want to use [[https://orgmode.org/worg/org-contrib/babel/][org babel]] for example, it relies on =run-coq= function. But this function is unavailable in Proof General!
+
+This is the repository that resurrects the old =coq-mode= for Emacs, as the files have been removed from the official coq repository.
+
+* Usage
+
+For usage, check out the original [[README.emacs]].
+
+* License
+
+This code is under LGPLv2 as per the original files. Check out [[CREDITS]] and [[LICENSE]] for more information.
